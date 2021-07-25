@@ -1,0 +1,91 @@
+body {
+    background: url('img/cutlery.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #532827;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin: 50px auto;
+    width: 400px;
+    background: url('img/paper-pattern.jpg') ;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+h1 {
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    border-bottom: solid 1px #dddddd;
+}
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#bill-input {
+    border: solid 1px #ddd;
+    margin: 0 0 10px;
+    padding: 10px;
+    width: 90px;
+    font-size: 15px;
+}
+#Options {
+    border: solid 1px #ddd;
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+}
+#people-number {
+    border: solid 1px #dddddd;
+    width: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+#bill-input:hover,
+#Options:hover,
+#people-number:hover {
+    border: solid 1px #532827;
+}
+
+#submit {
+    display: relative;
+    margin: auto;
+    width: 300px;
+    background: #6c2726;
+    padding: 20px 30px;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px 4px 4px black;
+    box-sizing: border-box;
+}
+#submit:hover {
+    cursor: pointer;
+}
+#submit:active {
+    box-shadow: none;
+}
+#total-tip {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 50px;
+}
+#total-tip::before{
+    content: "Tip Amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+#total-tip sup {
+    font-size: 24px;
+    top: -18px;
+}
+#total-tip small {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
